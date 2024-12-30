@@ -1,0 +1,14 @@
+n=int(input())
+print("1000:"+str(int(n/1000)))
+n=n%1000
+print("500:"+str(int(n/500)))
+n=n%500
+print("100:"+str(int(n/100)))
+n=n%100
+print("50:"+str(int(n/50)))
+n=n%50
+print("20:"+str(int(n/20)))
+n=n%20
+print("5:"+str(int(n/5)))
+n=n%5
+print("1:"+str(n))
